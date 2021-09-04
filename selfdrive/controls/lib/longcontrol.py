@@ -14,7 +14,7 @@ DECEL_THRESHOLD_TO_PID = 0.8
 DECEL_STOPPING_TARGET = 2.0  # apply at least this amount of brake to maintain the vehicle stationary
 
 RATE = 100.0
-DEFAULT_LONG_LAG = 0.15
+DEFAULT_LONG_LAG = 1.0
 
 
 # TODO this logic isn't really car independent, does not belong here
