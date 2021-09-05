@@ -186,7 +186,7 @@ class CarController():
     # all of this is only relevant for HONDA NIDEC
     #max_accel = interp(CS.out.vEgo, P.NIDEC_MAX_ACCEL_BP, P.NIDEC_MAX_ACCEL_V)
     # TODO this 1.44 is just to maintain previous behavior
-    pcm_accel = int(1.0 * 0xc6)
+    pcm_accel = int(54)
     pcm_speed = 100
 
     if not CS.CP.openpilotLongitudinalControl:
