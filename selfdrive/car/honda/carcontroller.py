@@ -187,7 +187,7 @@ class CarController():
     #max_accel = interp(CS.out.vEgo, P.NIDEC_MAX_ACCEL_BP, P.NIDEC_MAX_ACCEL_V)
     # TODO this 1.44 is just to maintain previous behavior
     pcm_accel = int(54)
-    pcm_speed = 0
+    pcm_speed = 100
 
     if not CS.CP.openpilotLongitudinalControl:
       if (frame % 2) == 0:
